@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+#logo img{
+	display:inline;
+    width:10%;
+	height: auto;
+	
+}
+
+/* === body === */
+
+
+body{
+	background-color:snow;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+
+.image img{
+	padding:40px;
+	width:40%;
+	height:auto;
+	float:center;
+}
+
+h3{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  	font-size:2.0em;
+  	text-align:center;
+  	margin:0 auto;
+	padding:20px;
+	text-decoration:none;
+	color:darkorange;
+	float:inherit;
+	text-transform:uppercase;
+}
+
+p{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size:1.0em;
+	color:dimgrey;
+	text-align: center;
+	padding-bottom: 100px;
+	margin:0 auto;
+	float:inherit;
+}
+
+.back{
+	text-transform:uppercase;
+	text-align:left;
+	margin: 60px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	
+}
+
+.back a:link{
+	
+	list-style:none;
+	text-decoration: none;
+	color:#ff734d;
+}
+
+.back a:hover{
+ border:1px #fcdfb1 solid ;
+	color:#ccbea3 ;
+	padding:20px;
+}
+
+
+li a:active{
+  color :#E5C35C;
+}
+
+
+
+
+
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+                    box-sizing:border-box;
+}
+
+/*=== full width ===*/
+@media only screen and (min-width:1200px)and ( max-width:1800px ){
+	body{
+	background-color:snow;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+
+}
+
+@media only screen and (min-width:913px ) and ( max-width:1199px ){
+	body{
+	background-color:snow;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+}
+/*=== ipad landscape ===*/
+@media only screen and (max-device-width:1024px) and (orientation:landscape){
+	html,body{overflow-x: hidden;
+	overflow-y: hidden;}
+	.image img{
+	padding:40px;
+	width:40%;
+	height:auto;
+	float:center;
+}
+	
+}
+	
+/*=== ipad portrait ===*/
+@media only screen and (max-device-width:767px) and (orientation:portrait){
+	html,body{overflow-x: hidden;
+	overflow-y: hidden;}
+	
+	.image img{
+	padding:40px;
+	width:40%;
+	height:auto;
+	float:center;
+}
+}
+
+/*=== smartphone===*/
+@media only screen and (min-width:320px) and (max-width:400px){
+	html,body{overflow-x: hidden;
+	overflow-y: hidden;	
+	}
+	
+	body{
+	background-color:snow;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+		width: auto;
+}
+	
+	h1 img{
+		float: none;
+		text-align: center;
+		display:inline;
+    width:10%;
+	height: auto;
+	}
+	
+.image img{
+	padding:auto;
+	width:40%;
+	height:auto;
+	float:center;
+}
+	
+
+
+.back{
+	text-transform:uppercase;
+	text-align:left;
+	margin: 60px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	
+}
+
+.back a:link{
+	
+	list-style:none;
+	text-decoration: none;
+	color:#ff734d;
+}
+
+.back a:hover{
+ border:1px #fcdfb1 solid ;
+	color:#ccbea3 ;
+	padding:20px;
+}
+
+
+li a:active{
+  color :#E5C35C;
+}
+
+	
+	}
